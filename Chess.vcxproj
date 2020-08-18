@@ -18,6 +18,28 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Chess.cpp" />
+    <ClCompile Include="src\Mouse.cpp" />
+    <ClCompile Include="src\Movement.cpp" />
+    <ClCompile Include="src\ObjLoader.cpp" />
+    <ClCompile Include="src\ObjStack.cpp" />
+    <ClCompile Include="src\TextureLoader.cpp" />
+    <ClCompile Include="src\Transform.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\defs.h" />
+    <ClInclude Include="src\Mouse.h" />
+    <ClInclude Include="src\Movement.h" />
+    <ClInclude Include="src\ObjLoader.h" />
+    <ClInclude Include="src\ObjStack.h" />
+    <ClInclude Include="src\TextureLoader.h" />
+    <ClInclude Include="src\Transform.h" />
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\Vector.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{D03FF48A-471A-4910-AF0C-CC13E15337AE}</ProjectGuid>
@@ -152,28 +174,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Chess.cpp" />
-    <ClCompile Include="Mouse.cpp" />
-    <ClCompile Include="ObjLoader.cpp" />
-    <ClCompile Include="Transform.cpp" />
-    <ClCompile Include="Vector.cpp" />
-    <ClCompile Include="Movement.cpp" />
-    <ClCompile Include="ObjStack.cpp" />
-    <ClCompile Include="TextureLoader.cpp" />
-    <ClCompile Include="utils.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="defs.h" />
-    <ClInclude Include="Mouse.h" />
-    <ClInclude Include="ObjLoader.h" />
-    <ClInclude Include="Transform.h" />
-    <ClInclude Include="Vector.h" />
-    <ClInclude Include="Movement.h" />
-    <ClInclude Include="ObjStack.h" />
-    <ClInclude Include="TextureLoader.h" />
-    <ClInclude Include="utils.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
