@@ -31,8 +31,14 @@
 
 ## 效果演示
 
+- 初始界面
+
 <img src="https://github.com/chronoby/glchess/blob/master/image/init.png" width="700"  alt="初始界面"/><br/>
+
+- 光照
 
 <img src="https://github.com/chronoby/glchess/blob/master/image/light.png" width="700"  alt="光照"/><br/>
 
-<img src="https://github.com/chronoby/glchess/blob/master/image/init.png" width="700"  alt="棋子移动"/><br/>
+- 棋子移动
+
+<img src="https://github.com/chronoby/glchess/blob/master/image/move.png" width="700"  alt="棋子移动"/><br/>
